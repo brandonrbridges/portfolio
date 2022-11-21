@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './gradients.scss';
+@import './typography.scss';
+
+input {
+  &:disabled {
+    @apply bg-gray-100;
+  }
+}
+
+.footer_menu {
+  @apply flex flex-col space-y-2;
+
+  h6 {
+    @apply flex font-medium items-center mb-2 text-gray-500 text-sm tracking-wide uppercase;
+
+    svg {
+      @apply mr-1 -translate-y-0.5;
+    }
+  }
+
+  a {
+    @apply flex items-center text-gray-500 hover:text-gray-900 text-sm;
+  }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  @apply font-bold tracking-wider text-4xl uppercase;
+}
+
+h2 {
+  @apply font-bold tracking-wider text-2xl uppercase;
+}
+
+label {
+  @apply font-medium text-gray-500 text-sm;
+}
+
+.meta {
+  @apply font-medium text-gray-500 text-sm;
+}
